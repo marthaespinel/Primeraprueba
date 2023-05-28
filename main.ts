@@ -1,1 +1,1 @@
-console.log("ejercicio")
+console.log("ejercici0")
