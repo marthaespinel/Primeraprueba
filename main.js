@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 console.log("ejercicio");
-const actor_js_1 = require("./actor.js");
-const aplicacion_js_1 = require("./aplicacion.js");
-const categoria_js_1 = require("./categoria.js");
-const director_js_1 = require("./director.js");
-const episodio_js_1 = require("./episodio.js");
-const cost_js_1 = require("./cost.js");
-const plataforma_js_1 = require("./plataforma.js");
-const serie_js_1 = require("./serie.js");
+const actor_js_1 = require("./ejercicio/actor.js");
+const aplicacion_js_1 = require("./ejercicio/aplicacion.js");
+const categoria_js_1 = require("./ejercicio/categoria.js");
+const director_js_1 = require("./ejercicio/director.js");
+const episodio_js_1 = require("./ejercicio/episodio.js");
+const cost_js_1 = require("./ejercicio/cost.js");
+const plataforma_js_1 = require("./ejercicio/plataforma.js");
+const serie_js_1 = require("./ejercicio/serie.js");
 let objAplicacion = new aplicacion_js_1.Aplicacion();
 // Objetos genericos
 let objPlataforma = new plataforma_js_1.Plataforma("", "");

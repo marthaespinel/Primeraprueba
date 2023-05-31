@@ -5,7 +5,7 @@ import { Aplicacion } from "./aplicacion.js"
 import { Categoria } from "./categoria.js"
 import { Director } from "./director.js"
 import { Episodio } from "./episodio.js"
-import { Plan } from "./cost.js"
+import { cost} from "./cost.js"
 import { Plataforma } from "./plataforma.js"
 import { Serie } from "./serie.js"
 

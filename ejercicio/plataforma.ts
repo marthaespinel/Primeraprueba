@@ -1,11 +1,11 @@
 import { Categoria } from "./categoria.js";
-import { Plan } from "./cost.js";
+import { cost } from "./cost.js";
 
 export class Plataforma{
     nombre: string
 	sitioWeb: string
 	categoria: Categoria[]
-	plan: Plan[]
+	plan: cost[]
     constructor(nombre: string,sitioWeb: string){
         this.nombre=nombre
         this.sitioWeb=sitioWeb
