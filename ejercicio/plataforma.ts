@@ -1,5 +1,5 @@
 import { Categoria } from "./categoria.js";
-import { Plan } from "./plan.js";
+import { Plan } from "./cost.js";
 
 export class Plataforma{
     nombre: string

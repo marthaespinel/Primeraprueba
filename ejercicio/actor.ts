@@ -9,4 +9,4 @@ export class Actor extends Persona{
                      Fotografia: ${this.fotografia}, 
                      Descripcion: ${this.fotografia}`)
     }
-}
+}  
