@@ -9,7 +9,6 @@ class Serie {
         this.imagenRepresentativa = imagenRepresentativa;
         this.actor = [];
         this.director = [];
-        this.episodio = [];
     }
     mostrarDirectores() {
         this.director.forEach(e => console.log(e));

@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Plan = void 0;
-class Plan {
+exports.cost = void 0;
+class cost {
     constructor(precio) {
         this.precio = precio;
     }
 }
-exports.Plan = Plan;
+exports.cost = cost;
