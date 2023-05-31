@@ -4,8 +4,7 @@ import { Actor } from "./actor.js"
 import { Aplicacion } from "./aplicacion.js"
 import { Categoria } from "./categoria.js"
 import { Director } from "./director.js"
-import { Episodio } from "./episodio.js"
-import { cost} from "./cost.js"
+import { cost } from "./cost.js"
 import { Plataforma } from "./plataforma.js"
 import { Serie } from "./serie.js"
 
@@ -13,10 +12,9 @@ let objAplicacion = new Aplicacion()
 
 // Objetos genericos
 let objPlataforma = new Plataforma("","")
-let objPlan = new Plan(0)
+let objPlan = new cost(0)
 let objCategoria = new Categoria("")
 let objSerie = new Serie("","")
-let objEpisodio = new Episodio("","",0)
 let objActor = new Actor("","","")
 let objDirector = new Director("","","")
 
@@ -66,19 +64,6 @@ objAplicacion.plataforma[0].categoria[0].mostrarListadoSerie
 
 objPlan.precio=39900
 objAplicacion.plataforma[0].plan[0]=objPlan
-
-// Implementacion de creacion Episodios
-
-objEpisodio.nombre="Episodio 1"
-objAplicacion.plataforma[0].categoria[0].series[0].episodio[0]=objEpisodio
-objEpisodio.nombre="Episodio 2"
-objAplicacion.plataforma[0].categoria[0].series[0].episodio[0]=objEpisodio
-objEpisodio.nombre="Episodio 3"
-objAplicacion.plataforma[0].categoria[0].series[0].episodio[0]=objEpisodio
-objEpisodio.nombre="Episodio 4"
-objAplicacion.plataforma[0].categoria[0].series[0].episodio[0]=objEpisodio
-objEpisodio.nombre="Episodio 5"
-objAplicacion.plataforma[0].categoria[0].series[0].episodio[0]=objEpisodio
 
 // Implementacion de creacion Actor a una serie
 

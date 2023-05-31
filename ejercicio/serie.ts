@@ -1,19 +1,17 @@
 import { Actor } from "./actor.js";
 import { Director } from "./director.js";
-import { Episodio } from "./episodio.js";
+
 
 export class Serie{
     nombre: string
 	imagenRepresentativa: string
 	actor: Actor[]
     director: Director[]
-	episodio: Episodio[]
     constructor(nombre: string,imagenRepresentativa: string){
         this.nombre=nombre
         this.imagenRepresentativa=imagenRepresentativa
         this.actor=[]
         this.director=[]
-        this.episodio=[]
     }
     mostrarDirectores(){
         this.director.forEach(e=>console.log(e))
